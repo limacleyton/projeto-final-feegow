@@ -1,0 +1,31 @@
+.campologo{
+    background-color: white;
+    position: flex;
+    left: 5%;
+    right: 85.43%;
+    top: 4%;
+    bottom: 64.96%;
+}
+
+
+.menu{
+    background-color: #07C1DD;
+    
+}
+.menuOpcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menuOpcoes > ul{
+    display: flex;
+    flex-direction: row;
+    padding-right: 50%;
+    list-style-type: none;
+}
+
+.menuOpcoes > ul > li{
+    padding-right: 25%;
+}
