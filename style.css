@@ -48,7 +48,7 @@
 }
 
 .campoLogin > label{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -76,15 +76,13 @@
 }
 
 .botao > button{
-    font-family: Open Sans;
-    font-size: 16px;
     background: #07C1DD;
     color: white;
     width: 260px;
     height: 38px;
     border-radius: 4.8px;
     border: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

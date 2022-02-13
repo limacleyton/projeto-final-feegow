@@ -5,27 +5,49 @@
     right: 85.43%;
     top: 4%;
     bottom: 64.96%;
+    padding-left: 8%;
 }
 
 
 .menu{
     background-color: #07C1DD;
-    
 }
 .menuOpcoes{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 .menuOpcoes > ul{
     display: flex;
     flex-direction: row;
-    padding-right: 50%;
+    padding-right: 40%;
     list-style-type: none;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: small;
+    padding-left: 8%;
 }
 
 .menuOpcoes > ul > li{
     padding-right: 25%;
+}
+
+main{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 8%;
+}
+
+main > h1{
+    color: #052B3B;
+    margin-top: 50px;
+    font-family: Verdana;
+}
+
+main > h2{
+    color: #00B4FE;
+    font-family: Verdana;
 }
