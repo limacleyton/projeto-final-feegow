@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feegow System - Home</title>
+    <link rel="stylesheet" type="text/css" href="stylehome.css"/>
+</head>
+<body style="background: #FFFFFF url(img/background.png) no-repeat center center fixed";>
+    <header>
+        <div class="campologo">
+            <img src="img/image 1.png" alt="logo do Feegow System">
+        </div>
+    </header>  
+    <nav class="menu">
+        <div class="menuOpcoes">
+            <ul>
+                <li>Profissionais</li>
+                <li>Pacientes</li>
+                <li>Procedimentos</li>
+                <li>Atendimento</li>
+            </ul>
+            <svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.7172 0C8.09928 0 0.306641 7.83266 0.306641 17.5C0.306641 27.1673 8.09928 35 17.7172 35C27.3352 35 35.1278 27.1673 35.1278 17.5C35.1278 7.83266 27.3352 0 17.7172 0ZM17.7172 6.77419C21.1291 6.77419 23.8952 9.55444 23.8952 12.9839C23.8952 16.4133 21.1291 19.1935 17.7172 19.1935C14.3053 19.1935 11.5393 16.4133 11.5393 12.9839C11.5393 9.55444 14.3053 6.77419 17.7172 6.77419ZM17.7172 31.0484C13.5963 31.0484 9.90352 29.1714 7.43234 26.2359C8.75218 23.7379 11.3357 22.0161 14.3474 22.0161C14.5159 22.0161 14.6844 22.0444 14.8459 22.0938C15.7585 22.3901 16.7133 22.5806 17.7172 22.5806C18.7211 22.5806 19.6829 22.3901 20.5886 22.0938C20.75 22.0444 20.9185 22.0161 21.087 22.0161C24.0988 22.0161 26.6823 23.7379 28.0021 26.2359C25.5309 29.1714 21.8382 31.0484 17.7172 31.0484Z" fill="white"/>
+                </svg>
+        </div>
+    </nav>
+    <main>
+        <h1>Área do Profissional</h1>
+        <h2>Cadastro de Profissional</h2>
+        <div class="formProfissional">
+            <form action="/projeto-final-feegow/cadastroProfissionais.html" method="post">
+                <div class="formProfissionalLinha1">
+                    <label for="CPF">CPF</label>
+                    <input type="text" placeholder="digite seu cpf" id="CPF">
+                    <label for="nomeProfissional">Nome</label>
+                    <input type="text" id="nomeProfissional" placeholder="digite seu nome">
+                </div>
+                <div class="formProfissionalLinha2">
+                    <label for="emailProfissional">E-mail</label>
+                    <input type="text" id="emailProfissional" placeholder="digite seu e-mail">
+                    <label for="telProfissional">Telefone</label>
+                    <input type="tel" id="telProfissional" placeholder="digite seu telefone">
+                    <label for="dnProfissional">Data de Nascimento</label>
+                    <input type="date" id="dnProfissional" placeholder="digite sua data de nascimento">
+                </div>
+                <div class="formProfissionalLinha3">
+                    <label for="cepProfissional">CEP</label>
+                    <input type="number" id="cepProfissional" placeholder="digite seu CEP">
+                    <label for="enderecoProfissional">Endereço</label>
+                    <input type="address" id="enderecoProfissional" placeholder="digite seu endereço">
+                </div>
+                <div class="formProfissionalLinha4">
+                    <label for="estadoProfissional">Estado</label>
+                    <input type="text" id="estadoProfissional" placeholder="digite seu Estado">
+                    <label for="cidadeProfissional">Cidade</label>
+                    <input type="text" id="cidadeProfissional" placeholder="digite sua cidade">
+                </div>
+                <div class="formProfissionalLinha5">
+                    <label for="crmNumeroProfissional">Numero do Conselho</label>
+                    <input type="number" id="crmNumeroProfissional" placeholder="digite seu numero do conselho">
+                    <label for="crmProfissional">Conselho</label>
+                    <input type="text" id="crmProfissional" placeholder="digite seu conselho">
+                </div>
+                <div class="botaoInserir">
+                    <button type="submit">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5607 3.06066L10.9393 0.439344C10.658 0.158039 10.2765 2.08024e-06 9.87869 0H1.5C0.671562 0 0 0.671562 0 1.5V12.5C0 13.3284 0.671562 14 1.5 14H12.5C13.3284 14 14 13.3284 14 12.5V4.12131C14 3.72349 13.842 3.34196 13.5607 3.06066ZM7 12C5.89544 12 5 11.1046 5 10C5 8.89544 5.89544 8 7 8C8.10456 8 9 8.89544 9 10C9 11.1046 8.10456 12 7 12ZM10 2.48375V5.625C10 5.83209 9.83209 6 9.625 6H2.375C2.16791 6 2 5.83209 2 5.625V2.375C2 2.16791 2.16791 2 2.375 2H9.51625C9.61572 2 9.71109 2.0395 9.78141 2.10984L9.89016 2.21859C9.92498 2.25341 9.95261 2.29475 9.97146 2.34024C9.99031 2.38574 10 2.4345 10 2.48375Z" fill="white"/>
+                            </svg>Salvar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -51,3 +51,31 @@ main > h2{
     color: #00B4FE;
     font-family: Verdana;
 }
+
+.tabela > table{
+    border: #DEE2E6 solid 1px;
+}
+
+.tabela > table > tr > th{
+    border: #DEE2E6 solid 1px;
+}
+
+.formProfissional{
+    padding-top: 85px;
+}
+
+.formProfissionalLinha1{
+    padding-bottom: 37px;
+}
+
+.formProfissionalLinha2{
+    padding-bottom: 37px;
+}
+
+.formProfissionalLinha3{
+    padding-bottom: 37px;
+}
+
+.formProfissionalLinha4{
+    padding-bottom: 37px;
+}
